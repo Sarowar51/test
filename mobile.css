@@ -1,0 +1,112 @@
+.header{
+width:100%;
+height:90vh;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.png);
+background-position: center;
+background-size: cover;
+position:relative;
+
+}
+section{
+  display:flex;
+  justify-content: space-between;
+
+}
+.logo{
+width:20%;
+
+}
+
+.logo img{
+width:200px;
+padding-top: 10px;
+}
+
+.header-nav{
+
+}
+
+.header-nav ul{
+  width:250px;
+  height:90vh;
+   background: gray;
+text-align: center;
+
+}
+.header-nav ul li{
+  list-style: none;
+
+
+}
+.header-nav ul li a{
+  text-decoration: none;
+  color:white;
+  padding:9px;
+  display:block;
+}
+.header-nav ul li a::after{
+  content:'';
+  width:0%;
+  height:2px;
+  display:block;
+  margin:auto;
+  background:tomato;
+}
+.header-nav ul li a:hover::after{
+  width:80%;
+  transition:.5s;
+}
+
+.about{
+  position:absolute;
+  top:50%;
+  left:10%;
+
+text-align: center;
+}
+
+.about h1{
+  font-size: 60px;
+  color:white;
+}
+button{
+  background: white;
+  padding:8px;
+  border-radius: 9px;
+  border:1px solid red;
+  margin-top:8px;
+  cursor:pointer;
+}
+button:hover{
+  background: red;
+  color:white;
+  transition:.5s;
+}
+.courses{
+  padding:50px;
+  text-align: center;
+}
+.courses p{
+  font-family: sans-serif;
+}
+.course-card{
+display:flex;
+flex-direction: column;
+
+}
+
+.same{
+  width:300px;
+  height:200px;
+  background: pink;
+  padding:10px;
+  text-align:center;
+border-radius: 19px;
+    margin:10px auto;
+
+}
+.same:hover{
+  box-shadow: 2px 3px 4px 5px gray;
+  transition:.5s;
+
+}
